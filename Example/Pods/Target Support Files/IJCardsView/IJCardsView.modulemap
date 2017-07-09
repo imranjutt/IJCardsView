@@ -1,0 +1,6 @@
+framework module IJCardsView {
+  umbrella header "IJCardsView-umbrella.h"
+
+  export *
+  module * { export * }
+}

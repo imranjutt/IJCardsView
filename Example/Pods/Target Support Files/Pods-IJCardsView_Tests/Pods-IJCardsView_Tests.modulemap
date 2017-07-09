@@ -1,0 +1,6 @@
+framework module Pods_IJCardsView_Tests {
+  umbrella header "Pods-IJCardsView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

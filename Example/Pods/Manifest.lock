@@ -1,0 +1,16 @@
+PODS:
+  - IJCardsView (0.1.0)
+
+DEPENDENCIES:
+  - IJCardsView (from `../`)
+
+EXTERNAL SOURCES:
+  IJCardsView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IJCardsView: df6ae769bfe73cbcc7277b466fa3501856b7e072
+
+PODFILE CHECKSUM: 47b2f1727025545d0ce3fae2a22b0aa295551ca6
+
+COCOAPODS: 1.2.1
