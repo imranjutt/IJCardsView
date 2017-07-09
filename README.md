@@ -17,7 +17,35 @@ IJCardsView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "IJCardsView"
+pod 'IJCardsView', '~> 0.1.0'
+```
+
+## Carthage
+
+You can also add the framework via carthage simply add the following line in your Cartfile
+
+```ruby
+github "imranjutt/IJCardsView" ~> 0.1.1
+```
+
+## Usage
+
+Usage is incredibly easy all you need to do is call
+
+```ruby
+var cardsViewFrame = CGRect()
+cardsViewFrame.size.width = UIScreen.main.bounds.size.width
+cardsViewFrame.size.height = UIScreen.main.bounds.size.width * 0.625
+cardsViewFrame.origin.x = 0;
+cardsViewFrame.origin.y = 20;
+
+let cardsView: IJCardsView = IJCardsView(frame: cardsViewFrame, numberOfCards: 10, cardImageName: "bank_card_soneri", cardPositionUpdatedBlock: { (selectedCardIndex) in
+//handle callback here
+print(selectedCardIndex)
+})
+
+self.view.addSubview(cardsView)
+
 ```
 
 ## Author
