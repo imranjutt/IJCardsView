@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IJCardsView_Example' do
+  pod 'IJCardsView', :path => '../'
+
+  target 'IJCardsView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
