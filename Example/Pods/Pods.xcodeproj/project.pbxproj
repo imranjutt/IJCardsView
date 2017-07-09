@@ -11,11 +11,12 @@
 		53235A13C99E3E8A3B54E9B4F34C2350 /* Pods-IJCardsView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E1159015774C76D318AAACAE52E44D /* Pods-IJCardsView_Tests-dummy.m */; };
 		8B2CA92D290CC119F825A443232537FB /* Pods-IJCardsView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF0B50BD0A0BC7E0BB0F7C8D39B1F47 /* Pods-IJCardsView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951329281425D7044358D12FF8C8C098 /* Pods-IJCardsView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61BE3B95C939E94D9D529EFF842D62 /* Pods-IJCardsView_Example-dummy.m */; };
+		9BDDBF1E1F1279F700E1E7E0 /* IJCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDBF1B1F1279F700E1E7E0 /* IJCardsView.swift */; };
+		9BDDBF1F1F1279F700E1E7E0 /* IJCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDBF1C1F1279F700E1E7E0 /* IJCardView.swift */; };
 		A6A8CDCED0B7CD65FBD071AFEFB9DE16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AF97D9F0B05445A39E623F11AF871660 /* IJCardsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E9031C50B2A50BD733DD7DFB48C42F /* IJCardsView-dummy.m */; };
 		C2008AE2296953FF051E035F8724C8F3 /* IJCardsView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F5CD936BA0A47CDAC6C9FAF28E48A5 /* IJCardsView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAA09C219CC062758B9F9D3E2D342FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E77A9789BD52D52027655C7200E019DA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B30D0E6BE24653A028B0E30D1301A /* ReplaceMe.swift */; };
 		E802CDF77C2787F8DEFEF8D4C3F80391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,33 +34,35 @@
 		0E61BE3B95C939E94D9D529EFF842D62 /* Pods-IJCardsView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IJCardsView_Example-dummy.m"; sourceTree = "<group>"; };
 		12EB13E1C57009E4DD5C69293FE827DE /* Pods-IJCardsView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IJCardsView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		17B6E8C2FFB86D77CD47322EA19010AB /* Pods-IJCardsView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IJCardsView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A4FF877CF333E67FA50DFF12B4D30DF /* Pods_IJCardsView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IJCardsView_Example.framework; path = "Pods-IJCardsView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4FF877CF333E67FA50DFF12B4D30DF /* Pods_IJCardsView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IJCardsView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F8D904B9D6D486EBC073954B71B51D /* Pods-IJCardsView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IJCardsView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		33CA0BC7A6FCE03A9160985744157FB0 /* IJCardsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IJCardsView-prefix.pch"; sourceTree = "<group>"; };
 		3AB0467877B115B100E6451A582C8C82 /* Pods-IJCardsView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IJCardsView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		400B30D0E6BE24653A028B0E30D1301A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		47E1159015774C76D318AAACAE52E44D /* Pods-IJCardsView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IJCardsView_Tests-dummy.m"; sourceTree = "<group>"; };
 		4FD55052DFFF9298A11DAA56D48757DA /* IJCardsView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IJCardsView.xcconfig; sourceTree = "<group>"; };
 		52D4AB903C28574422FD9B635EF42C0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E9A1C7447E707C519213A7391E54E26 /* Pods-IJCardsView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IJCardsView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6FBC172442E17A7B52C9D36006075C6A /* Pods-IJCardsView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IJCardsView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		70F004A121C521A0F3C596D716937FA1 /* Pods-IJCardsView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IJCardsView_Example.modulemap"; sourceTree = "<group>"; };
+		70F004A121C521A0F3C596D716937FA1 /* Pods-IJCardsView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IJCardsView_Example.modulemap"; sourceTree = "<group>"; };
 		721DF48F1D280D44175508CB57F4EEF4 /* Pods-IJCardsView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IJCardsView_Example-resources.sh"; sourceTree = "<group>"; };
 		76D0E0150251EBA6E4B116944ECAE7D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AAC09184F0DFEA77B8AFF00770C9056 /* IJCardsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IJCardsView.framework; path = IJCardsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AAC09184F0DFEA77B8AFF00770C9056 /* IJCardsView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IJCardsView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B93727C92B037A158A979C38E29AB2 /* Pods-IJCardsView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IJCardsView_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95E9031C50B2A50BD733DD7DFB48C42F /* IJCardsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IJCardsView-dummy.m"; sourceTree = "<group>"; };
+		9BDDBF1B1F1279F700E1E7E0 /* IJCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJCardsView.swift; sourceTree = "<group>"; };
+		9BDDBF1C1F1279F700E1E7E0 /* IJCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJCardView.swift; sourceTree = "<group>"; };
+		9BDDBF1D1F1279F700E1E7E0 /* IJCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJCardView.xib; sourceTree = "<group>"; };
 		B3F5CD936BA0A47CDAC6C9FAF28E48A5 /* IJCardsView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IJCardsView-umbrella.h"; sourceTree = "<group>"; };
 		B9AA58A8AF904869AA0D3C37213FCE25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1369AFB1F1B3D8AB45BB880B40B80AE /* Pods-IJCardsView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IJCardsView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D24AC6A3A8E3A5FC142AA60500183B8E /* Pods-IJCardsView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IJCardsView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D447E6E3717B97BA55BD76347BAD67F8 /* IJCardsView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IJCardsView.modulemap; sourceTree = "<group>"; };
+		D447E6E3717B97BA55BD76347BAD67F8 /* IJCardsView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IJCardsView.modulemap; sourceTree = "<group>"; };
 		E123A9754AAF16F4945531D1081CD39C /* Pods-IJCardsView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IJCardsView_Tests-resources.sh"; sourceTree = "<group>"; };
-		E1BFEA3692A1565E60AF9B07FEA42225 /* Pods-IJCardsView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IJCardsView_Tests.modulemap"; sourceTree = "<group>"; };
+		E1BFEA3692A1565E60AF9B07FEA42225 /* Pods-IJCardsView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IJCardsView_Tests.modulemap"; sourceTree = "<group>"; };
 		F931E2747F47225D0A495C05375349BC /* Pods-IJCardsView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IJCardsView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC059253D45B35117B679E3E00218B94 /* Pods_IJCardsView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IJCardsView_Tests.framework; path = "Pods-IJCardsView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC059253D45B35117B679E3E00218B94 /* Pods_IJCardsView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IJCardsView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0F58DA794074CCD7619F2E992A3397 /* Pods-IJCardsView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IJCardsView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FEF0B50BD0A0BC7E0BB0F7C8D39B1F47 /* Pods-IJCardsView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IJCardsView_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,9 +133,10 @@
 		6E60525E519C5CA17834D9FD7383F341 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				400B30D0E6BE24653A028B0E30D1301A /* ReplaceMe.swift */,
+				9BDDBF1B1F1279F700E1E7E0 /* IJCardsView.swift */,
+				9BDDBF1C1F1279F700E1E7E0 /* IJCardView.swift */,
+				9BDDBF1D1F1279F700E1E7E0 /* IJCardView.xib */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -152,7 +156,6 @@
 			children = (
 				6E60525E519C5CA17834D9FD7383F341 /* Classes */,
 			);
-			name = IJCardsView;
 			path = IJCardsView;
 			sourceTree = "<group>";
 		};
@@ -314,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					2DA48E7C00FB3398E01F22DDE2793237 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -340,7 +348,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF97D9F0B05445A39E623F11AF871660 /* IJCardsView-dummy.m in Sources */,
-				E77A9789BD52D52027655C7200E019DA /* ReplaceMe.swift in Sources */,
+				9BDDBF1F1F1279F700E1E7E0 /* IJCardView.swift in Sources */,
+				9BDDBF1E1F1279F700E1E7E0 /* IJCardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FD55052DFFF9298A11DAA56D48757DA /* IJCardsView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -580,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FD55052DFFF9298A11DAA56D48757DA /* IJCardsView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
